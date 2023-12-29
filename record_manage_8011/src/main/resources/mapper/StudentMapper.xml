@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sg.cloud.mapper.StudentMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        stu_id, stu_name, birthday, id_card, national, sex, father_name, father_phone, mouther_name, mouther_phone, class_name
+    </sql>
+
+</mapper>
